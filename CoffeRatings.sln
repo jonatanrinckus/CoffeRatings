@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeRatings.UWP", "CoffeRa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeRatings.Windows", "CoffeRatings\CoffeRatings.Windows\CoffeRatings.Windows.csproj", "{64A65256-0394-4AA7-B6D9-EAC75389369F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unavailables", "Unavailables", "{15DD443C-5B97-44B7-B192-B0E4CB1BBEF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
@@ -404,5 +406,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84E628E6-DD88-430D-AA4E-E3FD32FE6C58} = {15DD443C-5B97-44B7-B192-B0E4CB1BBEF8}
+		{74331A5D-29B4-401E-B113-09714A17846E} = {15DD443C-5B97-44B7-B192-B0E4CB1BBEF8}
+		{64A65256-0394-4AA7-B6D9-EAC75389369F} = {15DD443C-5B97-44B7-B192-B0E4CB1BBEF8}
 	EndGlobalSection
 EndGlobal
