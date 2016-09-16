@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿using CoffeRatings.Services;
 using Xamarin.Forms;
 
 namespace CoffeRatings
@@ -12,6 +8,8 @@ namespace CoffeRatings
         public App()
         {
             InitializeComponent();
+
+            var data = new DataAccess();
 
             MainPage = new CoffeRatings.MainPage();
         }
